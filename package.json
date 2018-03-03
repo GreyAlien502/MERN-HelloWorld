@@ -10,14 +10,22 @@
   "author": "Aaron Spitalny",
   "license": "MIT",
   "dependencies": {
+    "dgram": "^1.0.1",
+    "dns": "^0.2.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "fs": "0.0.1-security",
     "material-ui": "^0.20.0",
+    "module": "^1.2.5",
+    "mongodb": "^3.0.3",
+    "mongoose": "^5.0.7",
+    "net": "^1.0.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7",
     "react-tap-event-plugin": "^3.0.2",
-    "reload": "^2.2.2"
+    "reload": "^2.2.2",
+    "tls": "0.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
