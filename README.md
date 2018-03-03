@@ -4,11 +4,28 @@ Start-Up Command
 3. npm run dev (run this command in a new terminal to run webpack)
 
 Hierarchical Structure:
-                                 MERN-HelloWorld
+app
+├── app.js
+├── public
+│   ├── css
+│   │   └── style.css
+│   └── js
+│       ├── add-build.js
+│       ├── index-build.js
+│       └── index-client.js
+├── routes
+│   └── index-route.js
+├── src
+│   ├── components
+│   │   ├── AddEvent.js
+│   │   └── HelloWorld.js
+│   ├── add-react.js
+│   └── index-react.js
+└── views
+    ├── index-tmpl.ejs
+    └── partials
+        └── templates
+            ├── head.ejs
+            └── jsDefaults.ejs
 
-			     /
-			    /	
-			   /
-			  /
-			 /		
-		    package.json
+9 directories, 13 files
