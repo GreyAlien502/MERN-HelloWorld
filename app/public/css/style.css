@@ -5,6 +5,19 @@ body {
 tr {
 	border: 1px solid black;
 }
+th {
+	border: 1px solid black;
+}
 button#save {
 	width: 100%;
+}
+button#addbtn {
+	width: 100%;
+}
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+h1 {
+	text-align: center;
 }
