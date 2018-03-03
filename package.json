@@ -10,6 +10,7 @@
   "author": "Aaron Spitalny",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/storage": "^1.6.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "material-ui": "^0.20.0",
