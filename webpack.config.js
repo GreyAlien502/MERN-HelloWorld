@@ -1,6 +1,7 @@
 module.exports = {
   entry:     {
-    index: './app/src/index-react.js'
+    index: './app/src/index-react.js',
+    add: './app/src/add-react.js'
   },
   output: {
     path: __dirname + '/app/public/js',

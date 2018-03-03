@@ -1,0 +1,10 @@
+body {
+	color: #000;
+	background-color: #fff;
+}
+tr {
+	border: 1px solid black;
+}
+button#save {
+	width: 100%;
+}
