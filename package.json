@@ -12,6 +12,7 @@
   "dependencies": {
     "dgram": "^1.0.1",
     "dns": "^0.2.2",
+    "@google-cloud/storage": "^1.6.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "fs": "0.0.1-security",

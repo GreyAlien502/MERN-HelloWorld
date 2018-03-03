@@ -1,6 +1,6 @@
 body {
-	color: #000;
-	background-color: #fff;
+	color: #ff0;
+	background-color: #f00;
 }
 tr {
 	border: 1px solid black;
@@ -10,9 +10,13 @@ th {
 }
 button#save {
 	width: 100%;
+	background-color: #ff5050;
+	color: #ff0;
 }
 button#addbtn {
 	width: 100%;
+	background-color: #ff5050;
+	color: #ff0;
 }
 table {
 	width: 100%;
@@ -20,4 +24,8 @@ table {
 }
 h1 {
 	text-align: center;
+}
+input {
+	width: 100%;
+	
 }
