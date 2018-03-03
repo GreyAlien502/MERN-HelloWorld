@@ -5,14 +5,15 @@ const model = mongoose.model(
 	mongoose.Schema({
 		name: {type: String, required:true},
 		location: {type: String, required:true},
-		time: {type: String, required:true},
+		starttime: {type: Date, required:true},
+		endtime: {type: Date, required:true}
 	})
 );
 
 
 
 function EventDB(){
-	this.get = async () => model.find({});
+	this.get = async () => model.find({}).sort([['starttime', 'descending']]);
 	this.add = async event => (new model(event).save(), console.log(this.get()));
 }
 
