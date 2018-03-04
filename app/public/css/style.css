@@ -22,7 +22,7 @@ table {
 	width: 100%;
 	border: 1px solid black;
 }
-h1 {
+h1,h2 {
 	text-align: center;
 }
 input {

@@ -13,7 +13,7 @@ const model = mongoose.model(
 
 
 function EventDB(){
-	this.get = async () => model.find({}).sort([['starttime', 'descending']]);
+	this.get = async () => model.find({}).sort([['starttime', 'ascending']]);
 	this.add = async event => (new model(event).save(), console.log(this.get()));
 }
 
